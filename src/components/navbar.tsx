@@ -1,30 +1,53 @@
+import { useState } from 'react';
 import { Menu, SocialMediaIcon } from '../data';
+import MenuIcon from './icons/menu';
 import Logo from './logo';
+import MenuXIcon from './icons/menuX';
+import MenuMobile from './menuMobile';
+import { Button } from './ui/button';
 
 const Navbar = () => {
+	const [openMenu, setOpenMenu] = useState(false);
+
+	const handleOpenMenu = () => {
+		setOpenMenu(!openMenu);
+	};
+
 	return (
-		<nav>
+		<nav className="sticky top-0 z-50 bg-white">
+			{/* menu mobile */}
+			<MenuMobile isOpen={openMenu} onClose={handleOpenMenu} />
+
 			<div className="max-w-7xl mx-auto flex justify-between items-center p-4">
 				{/* logo */}
-				<div>
-					<Logo />
-				</div>
+				<Logo />
 
 				{/* menu navbar */}
-				<ul className="flex gap-8">
-					{Menu.map((menu, index) => (
-						<li key={index} className="text-md">
-							{menu.name}
-						</li>
-					))}
-				</ul>
+				<div className="hidden lg:block">
+					<ul className="flex gap-2">
+						{Menu.map((menu, index) => (
+							<li key={index}>
+								<Button asChild variant={'ghost'} className="text-lg hover:rounded-full">
+									<a href={menu.link}>{menu.name}</a>
+								</Button>
+							</li>
+						))}
+					</ul>
+				</div>
 
 				{/* social media icon */}
-				<ul className="flex gap-4">
-					{SocialMediaIcon.map((icon, index) => (
-						<li key={index}>{icon.icon()}</li>
-					))}
-				</ul>
+				<div className="flex gap-4 items-center">
+					<ul className="flex gap-4">
+						{SocialMediaIcon.map((icon, index) => (
+							<li key={index}>{icon.icon()}</li>
+						))}
+					</ul>
+
+					{/* toggle menu */}
+					<a href="#" className="lg:hidden" onClick={handleOpenMenu}>
+						{openMenu ? <MenuXIcon /> : <MenuIcon />}
+					</a>
+				</div>
 			</div>
 		</nav>
 	);

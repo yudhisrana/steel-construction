@@ -23,8 +23,12 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<section className="relative bg-cover bg-center bg-no-repeat min-h-svh py-15" style={{ backgroundImage: `url(${heroBackgroud})` }}>
-			<div className="absolute inset-0 bg-white/95"></div>
+		<section
+			id="beranda"
+			className="relative bg-cover bg-center bg-no-repeat min-h-svh py-15 scroll-mt-14"
+			style={{ backgroundImage: `url(${heroBackgroud})` }}
+		>
+			<div className="absolute inset-0 bg-white/90"></div>
 			{/* content */}
 			<div className="relative max-w-7xl mx-auto px-4 z-10 flex justify-end items-center gap-8">
 				{/* left content */}

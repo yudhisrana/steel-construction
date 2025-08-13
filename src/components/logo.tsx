@@ -1,8 +1,10 @@
+import { logo } from '../assets';
+
 const Logo = () => {
 	return (
-		<>
-			<h1 className="font-bold text-md">Logo</h1>
-		</>
+		<div>
+			<img src={logo} alt="logo" width={50} height={50} />
+		</div>
 	);
 };
 
