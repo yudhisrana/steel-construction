@@ -5,9 +5,11 @@ import Logo from './logo';
 import MenuXIcon from './icons/menuX';
 import MenuMobile from './menuMobile';
 import { Button } from './ui/button';
+import useActiveMenu from '../hooks/useActiveMenu';
 
 const Navbar = () => {
 	const [openMenu, setOpenMenu] = useState(false);
+	const activeLink = useActiveMenu();
 
 	const handleOpenMenu = () => {
 		setOpenMenu(!openMenu);
@@ -27,7 +29,11 @@ const Navbar = () => {
 					<ul className="flex gap-2">
 						{Menu.map((menu, index) => (
 							<li key={index}>
-								<Button asChild variant={'ghost'} className="text-lg hover:rounded-full">
+								<Button
+									asChild
+									variant={'ghost'}
+									className={`text-lg rounded-full ${activeLink === menu.id ? 'bg-gray-200 text-gray-800 font-semibold' : ''}`}
+								>
 									<a href={menu.link}>{menu.name}</a>
 								</Button>
 							</li>

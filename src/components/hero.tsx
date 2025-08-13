@@ -9,8 +9,8 @@ const Hero = () => {
 
 	return (
 		<section
-			id="beranda"
-			className="relative bg-cover bg-center bg-no-repeat min-h-svh py-15 scroll-mt-14"
+			id="Beranda"
+			className="relative bg-cover bg-center bg-no-repeat min-h-svh py-15 scroll-mt-20"
 			style={{ backgroundImage: `url(${heroBackgroud})` }}
 		>
 			<div className="absolute inset-0 bg-white/90"></div>

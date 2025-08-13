@@ -4,32 +4,39 @@ import XIcon from './components/icons/xIcon';
 
 export const Menu = [
 	{
+		id: 'Beranda',
 		name: 'Beranda',
-		link: '#beranda',
+		link: '#Beranda',
 	},
 	{
+		id: 'TentangKami',
 		name: 'Tentang Kami',
-		link: '#tentang-kami',
+		link: '#TentangKami',
 	},
 	{
+		id: 'Layanan',
 		name: 'Layanan',
-		link: '#layanan',
+		link: '#Layanan',
 	},
 	{
+		id: 'Paket',
 		name: 'Paket',
-		link: '#paket',
+		link: '#Paket',
 	},
 	{
+		id: 'Portofolio',
 		name: 'Portofolio',
-		link: '#portofolio',
+		link: '#Portofolio',
 	},
 	{
+		id: 'Testimoni',
 		name: 'Testimoni',
-		link: '#testimoni',
+		link: '#Testimoni',
 	},
 	{
+		id: 'Kontak',
 		name: 'Kontak',
-		link: '#kontak',
+		link: '#Kontak',
 	},
 ];
 
