@@ -1,26 +1,11 @@
-import { useEffect, useState } from 'react';
 import { heroBackgroud, structureSteel } from '../assets';
 import ReactOdometer from 'react-odometerjs';
 import 'odometer/themes/odometer-theme-default.css';
-import { CompanyEstablished, CustomerStatisfaction, Project } from '../data';
 import { Button } from './ui/button';
+import useOdometer from '../hooks/useOdometer';
 
 const Hero = () => {
-	const [project, setProject] = useState(0);
-	const [customerStatisfaction, setCustomerStatisfaction] = useState(0);
-	const [companyEstablished, setCompanyEstablished] = useState(0);
-
-	useEffect(() => {
-		const timeOut = setTimeout(() => {
-			setProject(Project);
-			setCustomerStatisfaction(CustomerStatisfaction);
-			setCompanyEstablished(CompanyEstablished);
-		}, 700);
-
-		return () => {
-			clearTimeout(timeOut);
-		};
-	}, []);
+	const { project, customerStatisfaction, companyEstablished } = useOdometer();
 
 	return (
 		<section
