@@ -30,7 +30,7 @@ const Hero = () => {
               size={"lg"}
               className="text-md lg:text-lg"
             >
-              Proyek
+              Portofolio
             </Button>
             <Button size={"lg"} className="text-md text-white lg:text-lg">
               Kontak Kami
