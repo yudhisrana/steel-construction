@@ -1,5 +1,8 @@
 import FacebookIcon from './components/icons/facebook';
+import HardHatIcon from './components/icons/hardHat';
 import InstagramIcon from './components/icons/instagram';
+import PencilRulerIcon from './components/icons/pencilRuler';
+import ShieldCheckIcon from './components/icons/shieldCheck';
 import XIcon from './components/icons/xIcon';
 
 export const Menu = [
@@ -55,6 +58,17 @@ export const SocialMediaIcon = [
 	},
 ];
 
-export const Project = 50;
-export const CustomerStatisfaction = 98;
-export const CompanyEstablished = 20;
+export const AboutGrid = [
+	{
+		icon: HardHatIcon,
+		description: 'Berpengalaman',
+	},
+	{
+		icon: PencilRulerIcon,
+		description: 'Presisi Tinggi',
+	},
+	{
+		icon: ShieldCheckIcon,
+		description: 'Keamanan Terjamin',
+	},
+];
