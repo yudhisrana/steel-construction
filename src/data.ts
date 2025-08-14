@@ -87,7 +87,7 @@ export const ServiceCard = [
     icon: WarehouseIcon,
     title: "Pembangunan Gudang",
     description:
-      "Desain dan pembangunan gudang yang kokoh dan fungsional, sesuai kebutuhan penyimpanan dan operasional bisnis Anda.",
+      "Pembangunan gudang yang kokoh dan fungsional, sesuai kebutuhan penyimpanan dan operasional bisnis Anda.",
   },
   {
     icon: RulerIcon,
