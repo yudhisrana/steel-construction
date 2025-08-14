@@ -3,12 +3,12 @@ import { AboutGrid } from "../data";
 
 const AboutUs = () => {
   return (
-    <section id="TentangKami" className="scroll-mt-20 bg-gray-100">
-      <div className="rounded-tl-[100%] bg-gray-200 py-24 lg:py-28">
+    <section id="TentangKami" className="scroll-mt-12 bg-[#FCFCFD]">
+      <div className="rounded-tl-[100%] bg-[#E8E9E9] py-24 lg:py-28">
         {/* content */}
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 text-center lg:flex-row lg:items-start lg:text-start">
           {/* left content */}
-          <div className="rounded-2xl bg-gray-200 bg-clip-padding p-3">
+          <div className="rounded-2xl bg-[#E8E9E9] bg-clip-padding p-3">
             <img
               src={aboutUs}
               alt="about-us"
@@ -19,7 +19,7 @@ const AboutUs = () => {
           {/* right content */}
           <div className="space-y-6">
             <h3 className="text-lg font-semibold">Tentang Kami</h3>
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-3xl leading-tight font-bold">
               Kekuatan dan Ketahanan dalam Setiap Struktur
             </h1>
             <p className="text-md leading-relaxed text-gray-700 lg:text-lg">
@@ -35,7 +35,7 @@ const AboutUs = () => {
             <div className="flex flex-col justify-center gap-4 md:flex-row md:gap-10 lg:justify-start">
               {AboutGrid.map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <span className="rounded-2xl bg-gray-100 p-4">
+                  <span className="rounded-2xl bg-[#FCFCFD] p-4">
                     {item.icon()}
                   </span>
                   <h3 className="text-md lg:text-lg">{item.description}</h3>

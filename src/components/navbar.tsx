@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#FBFBFB]">
+    <nav className="sticky top-0 z-50 bg-[#FBFBFB] shadow-sm shadow-gray-100">
       {/* menu mobile */}
       <MenuMobile isOpen={openMenu} onClose={handleOpenMenu} />
 

@@ -2,7 +2,10 @@ import FacebookIcon from "./components/icons/facebook";
 import HardHatIcon from "./components/icons/hardHat";
 import InstagramIcon from "./components/icons/instagram";
 import PencilRulerIcon from "./components/icons/pencilRuler";
+import RulerIcon from "./components/icons/ruler";
 import ShieldCheckIcon from "./components/icons/shieldCheck";
+import WarehouseIcon from "./components/icons/warehouse";
+import WrenchIcon from "./components/icons/wrench";
 import XIcon from "./components/icons/xIcon";
 
 export const Menu = [
@@ -70,5 +73,26 @@ export const AboutGrid = [
   {
     icon: ShieldCheckIcon,
     description: "Keamanan Terjamin",
+  },
+];
+
+export const ServiceCard = [
+  {
+    icon: WrenchIcon,
+    title: "Konstruksi Baja",
+    description:
+      "Pengerjaan konstruksi baja profesional untuk gedung, gudang, dan proyek infrastruktur dengan standar keamanan tinggi.",
+  },
+  {
+    icon: WarehouseIcon,
+    title: "Pembangunan Gudang",
+    description:
+      "Desain dan pembangunan gudang yang kokoh dan fungsional, sesuai kebutuhan penyimpanan dan operasional bisnis Anda.",
+  },
+  {
+    icon: RulerIcon,
+    title: "Perencanaan & Desain",
+    description:
+      "Layanan perencanaan dan desain konstruksi dengan perhitungan presisi untuk memastikan efisiensi dan ketahanan struktur.",
   },
 ];
