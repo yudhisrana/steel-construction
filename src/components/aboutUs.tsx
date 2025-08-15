@@ -6,7 +6,7 @@ const AboutUs = () => {
     <section id="TentangKami" className="scroll-mt-12 bg-[#FCFCFD]">
       <div className="rounded-tl-[100%] bg-[#E8E9E9] py-24 lg:py-28">
         {/* content */}
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 text-center lg:flex-row lg:items-start lg:text-start">
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 text-center lg:flex-row lg:text-start">
           {/* left content */}
           <div className="rounded-2xl bg-[#E8E9E9] bg-clip-padding p-3">
             <img
@@ -18,7 +18,6 @@ const AboutUs = () => {
 
           {/* right content */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Tentang Kami</h3>
             <h1 className="text-3xl leading-tight font-bold">
               Kekuatan dan Ketahanan dalam Setiap Struktur
             </h1>
@@ -38,7 +37,7 @@ const AboutUs = () => {
                   <span className="rounded-2xl bg-[#FCFCFD] p-4">
                     {item.icon()}
                   </span>
-                  <h3 className="text-md lg:text-lg">{item.description}</h3>
+                  <h3 className="text-lg font-semibold">{item.description}</h3>
                 </div>
               ))}
             </div>
