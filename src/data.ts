@@ -101,14 +101,18 @@ export const PricingCard = [
   {
     isPopuler: false,
     startFrom: true,
-    title: "JASA + BAHAN",
+    title: "JASA DAN BAHAN",
     description:
-      "Layanan lengkap termasuk pengadaan material baja dan pemasangan hingga selesai.",
-    features: [
-      "Bahan baja berkualitas",
-      "Pemasangan dan finishing",
-      "Garansi material & pengerjaan",
+      "Pengerjaan konstruksi baja profesional dengan tenaga ahli, dengan pengadaan bahan.",
+    including: [
+      "Fabrikasi (Di Lokasi Proyek)",
+      "Erection",
+      "Zinchromate",
+      "Alat Kerja (Travo, Bor, Tackle, Kawat Las, Gas & Oxygen)",
+      "Crane",
+      "Cat Finish Konstruksi Baja",
     ],
+    excluding: ["Listrik Kerja (Untuk Fabrikasi)"],
     price: "Rp24.500",
   },
   {
@@ -117,10 +121,16 @@ export const PricingCard = [
     title: "UPAH / JASA SAJA",
     description:
       "Pengerjaan konstruksi baja profesional dengan tenaga ahli, tanpa pengadaan bahan.",
-    features: [
-      "Tenaga kerja berpengalaman",
-      "Pengawasan kualitas",
-      "Garansi pengerjaan",
+    including: [
+      "Fabrikasi (Di Lokasi Proyek)",
+      "Erection",
+      "Zinchromate",
+      "Alat Kerja (Travo, Bor, Tackle, Kawat Las, Gas & Oxygen)",
+    ],
+    excluding: [
+      "Listrik Kerja (Untuk Fabrikasi)",
+      "Crane (Bila Diperlukan)",
+      "Cat Finish Konstruksi Baja",
     ],
     price: "Rp4.900",
   },

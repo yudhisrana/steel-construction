@@ -36,21 +36,29 @@ const Price = () => {
                 <div className="space-y-6">
                   <p>{item.description}</p>
                   <ul className="space-y-2">
-                    {item.features.map((feature, i) => (
-                      <li key={i}>✔ {feature}</li>
+                    <p>Pekerjaan Sudah Termasuk</p>
+                    {item.including.map((include, i) => (
+                      <li key={i}>✔ {include}</li>
                     ))}
                   </ul>
-                  {item.startFrom && (
+                  <ul className="space-y-2">
+                    <p>Pekerjaan Tidak Termasuk</p>
+                    {item.excluding?.map((exclude, i) => (
+                      <li key={i}>✖️ {exclude}</li>
+                    ))}
+                  </ul>
+
+                  <div className="">
                     <span className="text-sm font-normal text-gray-500">
-                      Harga Mulai Dari
+                      {item.startFrom ? "Harga Mulai Dari" : "Harga"}
                     </span>
-                  )}
-                  <h3 className="text-3xl leading-relaxed font-semibold">
-                    {item.price}
-                    <span className="text-sm font-normal text-gray-500">
-                      /Kilogram
-                    </span>
-                  </h3>
+                    <h3 className="text-3xl leading-relaxed font-semibold">
+                      {item.price}
+                      <span className="text-sm font-normal text-gray-500">
+                        /Kilogram
+                      </span>
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
