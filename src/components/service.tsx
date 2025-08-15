@@ -15,7 +15,6 @@ const Service = () => {
         <div className="flex flex-col items-center gap-10 lg:flex-row">
           {/* left content */}
           <div className="space-y-6 text-center lg:text-start">
-            <h3 className="text-lg font-semibold">Layanan</h3>
             <h1 className="text-3xl leading-tight font-bold">
               Solusi Konstruksi Baja Lengkap untuk Proyek Anda
             </h1>
