@@ -96,3 +96,32 @@ export const ServiceCard = [
       "Layanan perencanaan dan desain konstruksi dengan perhitungan presisi untuk memastikan efisiensi dan ketahanan struktur.",
   },
 ];
+
+export const PricingCard = [
+  {
+    isPopuler: false,
+    startFrom: true,
+    title: "JASA + BAHAN",
+    description:
+      "Layanan lengkap termasuk pengadaan material baja dan pemasangan hingga selesai.",
+    features: [
+      "Bahan baja berkualitas",
+      "Pemasangan dan finishing",
+      "Garansi material & pengerjaan",
+    ],
+    price: "Rp24.500",
+  },
+  {
+    isPopuler: true,
+    startFrom: false,
+    title: "UPAH / JASA SAJA",
+    description:
+      "Pengerjaan konstruksi baja profesional dengan tenaga ahli, tanpa pengadaan bahan.",
+    features: [
+      "Tenaga kerja berpengalaman",
+      "Pengawasan kualitas",
+      "Garansi pengerjaan",
+    ],
+    price: "Rp4.900",
+  },
+];

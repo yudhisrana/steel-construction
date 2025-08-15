@@ -1,6 +1,7 @@
 import AboutUs from "./components/aboutUs";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
+import Price from "./components/price";
 import Service from "./components/service";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <AboutUs />
       <Service />
+      <Price />
     </>
   );
 };
