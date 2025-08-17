@@ -26,14 +26,19 @@ const Hero = () => {
           {/* cta button */}
           <div className="flex gap-4">
             <Button
+              asChild
               variant={"outline"}
               size={"lg"}
               className="text-md lg:text-lg"
             >
-              Portofolio
+              <a href="#Portofolio">Portofolio</a>
             </Button>
-            <Button size={"lg"} className="text-md text-white lg:text-lg">
-              Kontak Kami
+            <Button
+              asChild
+              size={"lg"}
+              className="text-md text-white lg:text-lg"
+            >
+              <a href="#Kontak">Kontak Kami</a>
             </Button>
           </div>
         </div>
