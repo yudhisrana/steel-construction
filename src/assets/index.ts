@@ -5,3 +5,4 @@ export { default as structureSteel } from "./structure-steel.png";
 export { default as aboutUs } from "./about-us.jpg";
 export { default as service } from "./service.png";
 export { default as service2 } from "./service2.png";
+export { default as portfolio1 } from "./portfolio1.jpg";
