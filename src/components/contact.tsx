@@ -14,7 +14,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const phoneNumber = "6281314824576";
+    const phoneNumber = "6281314826576";
     const text = `Halo, saya ${form.name} (${form.email}).%0A%0A${form.message}`;
     const url = `https://wa.me/${phoneNumber}?text=${text}`;
 
@@ -71,7 +71,7 @@ const Contact = () => {
                 target="_blank"
                 className="text-gray-500"
               >
-                0813-1482-4576
+                0813-1482-6576
               </a>
             </div>
           </div>
