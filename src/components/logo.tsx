@@ -1,9 +1,13 @@
 import { logo1 } from "../assets";
 
-const Logo = () => {
+interface LogoProps {
+  widthSize?: number;
+}
+
+const Logo = ({ widthSize = 30 }: LogoProps) => {
   return (
     <div>
-      <img src={logo1} alt="logo" width={30} />
+      <img src={logo1} alt="logo" width={widthSize} />
     </div>
   );
 };
