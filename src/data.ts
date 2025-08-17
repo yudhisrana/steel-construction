@@ -181,3 +181,21 @@ export const PortfolioCard = [
     projectCompleted: "12 Mei 2024",
   },
 ];
+
+export const TestimonyCard = [
+  {
+    clientName: "Dipo Yudhis Rana",
+    message:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae qui temporibus, dicta sit praesentium corporis consequatur enim minus earum.",
+  },
+  {
+    clientName: "Dion Media Raga",
+    message:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae qui temporibus, dicta sit praesentium corporis consequatur enim minus earum.",
+  },
+  {
+    clientName: "Rama Yoga Swara",
+    message:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae qui temporibus, dicta sit praesentium corporis consequatur enim minus earum.",
+  },
+];
