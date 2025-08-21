@@ -62,10 +62,14 @@ const Contact = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold">Alamat</h3>
-              <p className="text-gray-500">
+              <a
+                href="https://maps.app.goo.gl/Lbig2xECsavGTg5g6"
+                target="_blank"
+                className="text-gray-500"
+              >
                 Jl. Duren Baru No.B11, RT.001/RW.007, Susukan, Kecamatan
                 Bojonggede, Kabupaten Bogor, Jawa Barat 16920
-              </p>
+              </a>
             </div>
           </div>
 
