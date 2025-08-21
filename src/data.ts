@@ -1,4 +1,4 @@
-import { portfolio1 } from "./assets";
+import { portfolioBpkHendrik } from "./assets";
 import FacebookIcon from "./components/icons/facebook";
 import HardHatIcon from "./components/icons/hardHat";
 import InstagramIcon from "./components/icons/instagram";
@@ -129,46 +129,11 @@ export const PricingCard = [
 
 export const PortfolioCard = [
   {
-    img: portfolio1,
-    projectName: "Gudang JNE Cipondoh",
-    description:
-      "Pembangunan gudang logistik dengan rangka baja kokoh dan desain efisien untuk mendukung distribusi barang berskala besar.",
-    projectCompleted: "30 Agustus 2022",
-  },
-  {
-    img: portfolio1,
-    projectName: "Kantor Startup Jakarta",
-    description:
-      "Pembangunan kantor modern dengan struktur baja ringan yang memberikan fleksibilitas ruang serta kenyamanan untuk bekerja.",
-    projectCompleted: "15 Januari 2023",
-  },
-  {
-    img: portfolio1,
-    projectName: "Rumah Tinggal BSD",
-    description:
-      "Pembangunan rumah tinggal dua lantai dengan rangka baja yang kuat, tahan lama, dan ramah lingkungan.",
-    projectCompleted: "12 Mei 2024",
-  },
-  {
-    img: portfolio1,
-    projectName: "Gudang JNE Cipondoh",
-    description:
-      "Pembangunan gudang logistik dengan rangka baja kokoh dan desain efisien untuk mendukung distribusi barang berskala besar.",
-    projectCompleted: "30 Agustus 2022",
-  },
-  {
-    img: portfolio1,
-    projectName: "Kantor Startup Jakarta",
-    description:
-      "Pembangunan kantor modern dengan struktur baja ringan yang memberikan fleksibilitas ruang serta kenyamanan untuk bekerja.",
-    projectCompleted: "15 Januari 2023",
-  },
-  {
-    img: portfolio1,
-    projectName: "Rumah Tinggal BSD",
-    description:
-      "Pembangunan rumah tinggal dua lantai dengan rangka baja yang kuat, tahan lama, dan ramah lingkungan.",
-    projectCompleted: "12 Mei 2024",
+    img: portfolioBpkHendrik,
+    projectName: "Komplek Pergudangan",
+    owmner: "Bapak Hendrik",
+    address: "Jl. Imam Bonjol No.130 Tangerang",
+    projectCompleted: "10 Oktober 2024",
   },
 ];
 

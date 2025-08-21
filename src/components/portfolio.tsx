@@ -25,16 +25,21 @@ const Portfolio = () => {
                 key={index}
                 className="flex flex-col rounded-lg border border-gray-300 bg-[#FCFCFD] shadow-md lg:flex-row"
               >
-                <img
-                  src={portfolio.img}
-                  alt={portfolio.projectName}
-                  className="flex-1 rounded-t-xl bg-clip-padding p-2 lg:max-w-[200px] lg:rounded-t-none lg:rounded-l-xl"
-                />
+                <a href={portfolio.img} target="_blank">
+                  <img
+                    src={portfolio.img}
+                    alt={portfolio.projectName}
+                    className="flex-1 rounded-t-xl bg-clip-padding p-2 lg:max-w-[200px] lg:rounded-t-none lg:rounded-l-xl"
+                  />
+                </a>
                 <div className="mb-2 space-y-2 px-4 py-2">
                   <h3 className="text-lg font-semibold">
                     {portfolio.projectName}
                   </h3>
-                  <p className="mb-4">{portfolio.description}</p>
+                  <div className="mb-4">
+                    <h3>Pemilik : {portfolio.owmner}</h3>
+                    <p>Alamat : {portfolio.address}</p>
+                  </div>
                   <span className="rounded-2xl bg-gray-800 px-3 py-1 text-sm text-white">
                     {portfolio.projectCompleted}
                   </span>
