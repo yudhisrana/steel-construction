@@ -18,6 +18,12 @@ const Contact = () => {
     const text = `Halo, saya ${form.name} (${form.email}).%0A%0A${form.message}`;
     const url = `https://wa.me/${phoneNumber}?text=${text}`;
 
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
+
     window.open(url, "_blank");
   };
 
