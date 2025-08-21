@@ -35,11 +35,6 @@ export const Menu = [
     link: "#Portofolio",
   },
   {
-    id: "Testimoni",
-    name: "Testimoni",
-    link: "#Testimoni",
-  },
-  {
     id: "Kontak",
     name: "Kontak",
     link: "#Kontak",
