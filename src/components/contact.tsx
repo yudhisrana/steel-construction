@@ -33,11 +33,13 @@ const Contact = () => {
         {/* content 1 */}
         <div className="flex-1 space-y-6 p-6">
           <div className="flex items-center gap-4">
-            <MailIcon
-              widthSize="55"
-              heightSize="55"
-              className="rounded-full border bg-gray-800 p-4 text-white"
-            />
+            <div>
+              <MailIcon
+                widthSize="55"
+                heightSize="55"
+                className="rounded-full border bg-gray-800 p-4 text-white"
+              />
+            </div>
             <div>
               <h3 className="text-lg font-semibold">Email</h3>
               <a
@@ -51,25 +53,30 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <LocateFixedIcon
-              widthSize="55"
-              heightSize="55"
-              className="rounded-full border bg-gray-800 p-4 text-white"
-            />
+            <div>
+              <LocateFixedIcon
+                widthSize="55"
+                heightSize="55"
+                className="rounded-full border bg-gray-800 p-4 text-white"
+              />
+            </div>
             <div>
               <h3 className="text-lg font-semibold">Alamat</h3>
               <p className="text-gray-500">
-                Jl. Duren Baru Talang Kabupaten Bogor
+                Jl. Duren Baru No.B11, RT.001/RW.007, Susukan, Kecamatan
+                Bojonggede, Kabupaten Bogor, Jawa Barat 16920
               </p>
             </div>
           </div>
 
           <div className="flex items-center gap-4">
-            <PhoneCallIcon
-              widthSize="55"
-              heightSize="55"
-              className="rounded-full border bg-gray-800 p-4 text-white"
-            />
+            <div>
+              <PhoneCallIcon
+                widthSize="55"
+                heightSize="55"
+                className="rounded-full border bg-gray-800 p-4 text-white"
+              />
+            </div>
             <div>
               <h3 className="text-lg font-semibold">Telepon</h3>
               <a
