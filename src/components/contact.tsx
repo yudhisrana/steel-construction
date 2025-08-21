@@ -40,7 +40,13 @@ const Contact = () => {
             />
             <div>
               <h3 className="text-lg font-semibold">Email</h3>
-              <p className="text-gray-500">crayontag@gmail.com</p>
+              <a
+                href="mailto:crayontag@gmail.com"
+                target="_blank"
+                className="text-gray-500"
+              >
+                crayontag@gmail.com
+              </a>
             </div>
           </div>
 
