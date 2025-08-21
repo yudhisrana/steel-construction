@@ -7,7 +7,6 @@ import RulerIcon from "./components/icons/ruler";
 import ShieldCheckIcon from "./components/icons/shieldCheck";
 import WarehouseIcon from "./components/icons/warehouse";
 import WrenchIcon from "./components/icons/wrench";
-import XIcon from "./components/icons/xIcon";
 
 export const Menu = [
   {
@@ -50,15 +49,11 @@ export const Menu = [
 export const SocialMediaIcon = [
   {
     icon: FacebookIcon,
-    link: "#",
+    link: "https://www.facebook.com/CrayonTagIDN/",
   },
   {
     icon: InstagramIcon,
-    link: "#",
-  },
-  {
-    icon: XIcon,
-    link: "#",
+    link: "https://www.instagram.com/crayontagconstruction/",
   },
 ];
 

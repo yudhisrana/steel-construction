@@ -45,7 +45,9 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <ul className="flex gap-4">
             {SocialMediaIcon.map((icon, index) => (
-              <li key={index}>{icon.icon()}</li>
+              <a key={index} href={icon.link} target="_blank">
+                {icon.icon()}
+              </a>
             ))}
           </ul>
 
